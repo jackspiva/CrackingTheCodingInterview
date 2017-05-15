@@ -29,3 +29,9 @@ print(isPermutation("dog", "god"))
 print(isPermutation("save", "savee"))
 print(isPermutation("log", "lo"))
 print(isPermutation("asdfjkl", "kjasdlf"))
+
+# 1.4
+def replaceSpaces(word, length):
+	return word[:length].replace(" ", "%20")
+
+print(replaceSpaces("Mr John Smith", 13))
